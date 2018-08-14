@@ -37,8 +37,8 @@ public class GoogleSearch implements Variables {
 			if ( results.first().attr("href").contains("geeksforgeeks")) {
 				DoTheScrapingHere.Scrape( results , searchTerm );
 			} else {
-				System.out.println("Please Enter A valid Search ! Even google isnt able to find it !! ");
-				return ;
+				System.out.println("Please Try Again ");
+				ThisFunctionToExecute();
 			}
 		}
 	}
